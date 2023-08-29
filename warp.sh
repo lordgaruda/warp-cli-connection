@@ -24,8 +24,8 @@ while true; do
         echo "WARP is connected."
         break
     else
-        echo "WARP is not connected yet. Checking again in 5 seconds..."
+        echo "WARP is not connected yet. Checking again"
     fi
 
-    sleep 5
+    sleep 1
 done
